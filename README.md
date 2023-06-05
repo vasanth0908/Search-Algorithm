@@ -105,6 +105,13 @@ else:
     print(arr)
     print("Element found at index: ",result)
 ## Sample Input and Output
+![1](https://github.com/vasanth0908/Search-Algorithm/assets/122000018/cad817a9-8248-4755-9c08-8ab1e264dd46)
+
+![2](https://github.com/vasanth0908/Search-Algorithm/assets/122000018/bc4ee4f2-b163-4c49-b7e1-1300d1a5883f)
+
+![3](https://github.com/vasanth0908/Search-Algorithm/assets/122000018/41ab9ed8-fb93-4695-aae7-5e6f8e7866f4)
+
+
 ![1](https://github.com/vasanth0908/Search-Algorithm/assets/122000018/8725fb1f-6011-4863-9415-2baebafbd73a)
 
 ![2](https://github.com/vasanth0908/Search-Algorithm/assets/122000018/32f70cdb-d9d8-46a1-8d2c-84f65b02b936)
