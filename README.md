@@ -19,17 +19,16 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i) #Use a linear search method to match the item in a list.
 
-''' 
+```
 Program for linear search method to match the item in a list
 Developed by: vasanth s
 RegisterNumber:212222110052
-'''
+
 def linearSearch(array,n,k):
     for i in range(0,n):
         if (array[i]==k):
             return i
-    return -1
-    
+    return -1   
 array=eval(input())
 k=eval(input())
 n=len(array)
@@ -41,16 +40,17 @@ if(result == -1):
 else:
     print(array)
     print("Element found at index: ",result)
+```
 
 
 
 ii) # Find the element in a list using Binary Search(Iterative Method).
 
-''' 
+```
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by: vasanth s
 RegisterNumber: 212222110052
-'''
+
 def binarySearchIter(array, k, low, high):
     while low <= high:
         mid = low + (high - low)//2
@@ -71,18 +71,17 @@ if(result == -1):
 else:
     print(array)
     print("Element found at index: ",result)
-
-
+```
 
 
 
 iii) # Find the element in a list using Binary Search (recursive Method).
 
-''' 
+```
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: vasanth s
 RegisterNumber: 212222110052
-'''
+
 def BinarySearch(arr, k, low, high):
     if high >=low:
         mid = low + (high - low)//2
@@ -104,6 +103,7 @@ if(result == -1):
 else:
     print(arr)
     print("Element found at index: ",result)
+```
 ## Sample Input and Output
 ![1](https://github.com/vasanth0908/Search-Algorithm/assets/122000018/cad817a9-8248-4755-9c08-8ab1e264dd46)
 
